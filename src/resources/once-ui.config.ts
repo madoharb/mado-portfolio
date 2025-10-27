@@ -102,7 +102,7 @@ const dataStyle: DataStyleConfig = {
 const effects: EffectsConfig = {
   mask: {
     cursor: true,
-    x: 80,
+    x: 50,
     y: 33,
     radius: 100,
   },
@@ -110,16 +110,16 @@ const effects: EffectsConfig = {
     display: true,
     opacity: 100,
     x: 50,
-    y: 33,
+    y: 0,
     width: 100,
-    height: 50,
+    height: 90,
     tilt: 0,
     colorStart: "accent-background-strong",
     colorEnd: "page-background",
   },
   dots: {
     display: true,
-    opacity: 40,
+    opacity: 80,
     size: "2",
     color: "brand-background-strong",
   },
