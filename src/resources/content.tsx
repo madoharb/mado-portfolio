@@ -2,9 +2,9 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Mohammed",
-  lastName: "AlGhussein",
-  name: `Mohammed AlGhussein`,
+  firstName: "Mado",
+  lastName: "Harb",
+  name: `Mado Harb`,
   role: "Full Stack Developer & Digital Marketer",
   avatar: "/images/avatar.jpg",
   email: "mogh166@gmail.com",
@@ -49,7 +49,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name} – Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building revenue-driving web products & growth systems</>,
+  headline: <>Building revenue-driving products & growth systems</>,
   featured: {
     display: true,
     title: (
